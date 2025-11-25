@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <dialog id="copy">
+        <p id="copyM"></p>
+      </dialog>
+      <h1>Basic URL Shortener</h1>
+      <br /><br />
+      <form action="" method="post">
+        <label for="url">Input Your url</label>
+        <input type="text" name="url" id="url" />
+        <label for="CC">Custom Code</label>
+        <input type="text" name="CC" id="CC" />
+        <input type="submit" value="Generate" id="gen" />
+      </form>
+      <label for="sUrl">Returned Url</label>
+      <input type="text" name="sUrl" id="sUrl" readonly />
+      <p>click above to copy</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

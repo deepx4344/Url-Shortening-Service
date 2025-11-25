@@ -1,0 +1,56 @@
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: cornsilk;
+  box-shadow: 10px 10px 10px purple;
+  padding: 10px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+  font-weight: bold;
+  color: purple;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  width: 80%;
+  padding: 10px;
+  margin-left: 5%;
+  color: purple;
+  font-weight: bold;
+  outline: none;
+}
+#gen {
+  margin-left: 11%;
+  background-color: purple;
+  box-shadow: 3px 3px 3px purple;
+  color: cornsilk;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+#gen:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px purple;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+#copy {
+  outline: none;
+  border-radius: 10%;
+  border: none;
+  box-shadow: 10px 10px 10px purple;
+}
+h1 {
+  margin-left: 24%;
+  color: purple;
+}
