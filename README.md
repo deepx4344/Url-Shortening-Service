@@ -14,5 +14,5 @@ npm start
 
 Notes & behavior
 
-- The service stores original URLs and generated short codes in MongoDB.
-- The server expects `MONGO_URI` or "mongoURI" to be set in environment.
+- The service stores original URLs and generated short codes in `MongoDB`.
+- The server expects `MONGO_URI` or `mongoURI` to be set in environment.
